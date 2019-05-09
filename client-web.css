@@ -1,0 +1,30 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+nav a , nav ul {
+    list-style: none;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    transition: color .2s;
+}
+nav a:hover {
+    color: gray;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#navigation  {
+    display: flex;
+    justify-content: center;
+    background-color: #0219A8;
+}
+#navigation h1 {
+    font-family: 'Bungee', cursive;
+    color: white;
+    font-size: 500%;
+}

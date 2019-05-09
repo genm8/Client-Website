@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Youth Program</title>
+    <link rel="stylesheet" href="client-web.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee" rel="stylesheet">
+
+
 </head>
 <body>
+   <div id="navigation">
     <nav>
+       <h1>Bullard High Future Knights Softball</h1>
         <ul>
-        <li>Home</li>
-        <li>Schedules</li>
-        <li>About</li>
-        <li>Lil' Knights</li>
+        <li><a href="bhshome.php">Home</a></li>
+        <li><a href="schedule.php">Schedules</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="youthprogram.php">Lil' Knights</a></li>
         </ul>
     </nav>
-<h1>Bullard High Future Knights Softball</h1>    
+    </div>
     <h2>Summer Skills Camps 2019</h2>
         <h3>All Skills Camps</h3>
         <p>
