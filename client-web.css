@@ -26,5 +26,56 @@ nav ul{
 #navigation h1 {
     font-family: 'Bungee', cursive;
     color: white;
-    font-size: 500%;
+    font-size: 300%;
 }
+.centeredtit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+hr {
+    width: 80%;
+}
+.info div {
+    width: 40%;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around; 
+} 
+#bigbox {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: baseline;
+    margin: auto;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+}
+input {
+    margin-top: 1%;
+}
+select {
+    margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
