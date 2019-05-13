@@ -40,12 +40,13 @@ hr {
 }
 .info div {
     width: 40%;
+    display: flex;
+    justify-content:space-around;
 }
 .info {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-around; 
 } 
 #bigbox {
     width: 80%;
@@ -58,7 +59,7 @@ hr {
 }
 
 form {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 2%;
 }
@@ -68,7 +69,20 @@ input {
 select {
     margin-top: 1%;
 }
+#parallax {
+  background-image: url("images/balls-baseball-bat-baseball-glove-257970.jpg");
 
+  min-height: 30em; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  background-color: #0219A8;
+}
 
 
 

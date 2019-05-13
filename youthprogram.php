@@ -29,21 +29,21 @@
         </div>
     <div class="info">
         <div>
-               <img src="images/action-active-activity-163365.jpg" alt="">
+               
             <p>
                 <strong>Lil' Knights(Ages 4-8)</strong> 8:30 am - 11:30 am June 10-13 100.00$
                 Summer softball camp. Come work with the Bullard softball team and coaching staff and improve your skills. <br>
             </p>
         </div>
         <div>
-               <img src="images/action-athlete-ball-279004.jpg" alt="">
+               
             <p>
                 <br><strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
             </p>
         </div>
     </div>
      <div id="bigbox">
-           <img src="images/action-athletes-ball-209852.jpg" alt="">
+          
             <p>
                 <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$
             </p>
