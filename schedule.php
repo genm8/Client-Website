@@ -2,8 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+     <link rel="stylesheet" href="client-web.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee" rel="stylesheet">
     <title>Schedule Page</title>
+    <div id="navigation">
+        <nav>
+            <h1>Bullard High Softball Schedule</h1>
+            <ul>
+                <li><a href="bhshome.php">Home</a></li>
+                <li><a href="schedule.php">Schedules</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="youthprogram.php">Lil' Knights</a></li>
+            </ul>
+        </nav>
+    </div>
 </head>
 <body>
   <table>
@@ -15,7 +28,7 @@
       </tr>
       
       
-
+<div class="sched">
    <?php
         if (($csvfile = fopen("sched.csv", "r")) !== FALSE) {
             while (($csvdata = fgetcsv($csvfile, 0, ",")) !== FALSE) {
@@ -45,11 +58,15 @@
             }
         }
     ?>
-    
+      </div>
     
     
     </table>  
 </body>
+<hr>
+<footer>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, omnis cum dicta magni nulla nihil odio dolore, nobis maxime. Error assumenda, mollitia ea distinctio doloribus temporibus vitae corporis natus in!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus amet nobis hic optio officiis quos voluptatibus id, itaque et odit reiciendis vero eum delectus totam sunt, ipsam odio commodi eligendi.</p>
+</footer>
 </html>
 
 

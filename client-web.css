@@ -70,7 +70,7 @@ select {
     margin-top: 1%;
 }
 #parallax {
-  background-image: url("images/balls-baseball-bat-baseball-glove-257970.jpg");
+  background-image:url(images/protcet-the-shield.jpg)
 
   min-height: 30em; 
 
@@ -82,6 +82,10 @@ select {
   align-content: space-between;
   justify-content: center;
   background-color: #0219A8;
+}
+
+div.sched {
+    border: 1em;
 }
 
 
