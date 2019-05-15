@@ -18,7 +18,6 @@
             <ul>
                 <li><a href="bhshome.php">Home</a></li>
                 <li><a href="schedule.php">Schedules</a></li>
-                <li><a href="about.php">About</a></li>
                 <li><a href="youthprogram.php">Lil' Knights</a></li>
             </ul>
         </nav>

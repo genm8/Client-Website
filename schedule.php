@@ -12,7 +12,6 @@
             <ul>
                 <li><a href="bhshome.php">Home</a></li>
                 <li><a href="schedule.php">Schedules</a></li>
-                <li><a href="about.php">About</a></li>
                 <li><a href="youthprogram.php">Lil' Knights</a></li>
             </ul>
         </nav>
@@ -57,6 +56,15 @@
                 
             }
         }
+    if (($csvros = fopen("roster.csv", "r")) !== FALSE) {
+            while (($csvter = fgetcsv($csvros, 0, ",")) !== FALSE) {
+                $error= '';
+                $colcount = count($csvter);
+                //echo " count = $colcount <br>";
+                if($colcount!=4) {
+                    $error = 'column count incorrect';
+                } else
+    
     ?>
       </div>
     
