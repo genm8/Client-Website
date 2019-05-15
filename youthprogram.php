@@ -13,7 +13,7 @@
 
 <body>
     <div id="navigation">
-        <nav>
+        <nav id="nav">
             <h1>Bullard High Future Knights Softball</h1>
             <ul>
                 <li><a href="bhshome.php">Home</a></li>

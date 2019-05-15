@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Youth Program</title>
@@ -11,14 +12,17 @@
 </head>
 
 <body>
-    <div id="parallax">
-        <nav>
-            <ul>
-                <li><a href="bhshome.php">Home</a></li>
-                <li><a href="schedule.php">Schedules</a></li>
-                <li><a href="youthprogram.php">Lil' Knights</a></li>
-            </ul>
-        </nav>
+    <div class="header">
+        <a class="logo" href="bhshome.php">BSoftball</a>
+        <ul>
+            <li><a href="bhshome.php">Home</a></li>
+            <li><a href="schedule.php">Schedules</a></li>
+            <li><a href="about.php">About</a></li>
+            <li><a href="youthprogram.php">Lil' Knights</a></li>
+        </ul>
     </div>
+
+
 </body>
+
 </html>
