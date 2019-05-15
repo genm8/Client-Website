@@ -63,18 +63,21 @@
                 //echo " count = $colcount <br>";
                 if($colcount!=4) {
                     $error = 'column count incorrect';
-                } else
+                } else {
+                    
+                }
     
     ?>
       </div>
     
     
     </table>  
-</body>
+
 <hr>
 <footer>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, omnis cum dicta magni nulla nihil odio dolore, nobis maxime. Error assumenda, mollitia ea distinctio doloribus temporibus vitae corporis natus in!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus amet nobis hic optio officiis quos voluptatibus id, itaque et odit reiciendis vero eum delectus totam sunt, ipsam odio commodi eligendi.</p>
 </footer>
+</body>
 </html>
 
 
