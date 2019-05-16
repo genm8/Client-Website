@@ -9,10 +9,18 @@ ul {
     text-decoration: none;
 }
 
+.header a {
+    color: white;
+    transition: .2s;
+}
+
+.header a:hover {
+    color: black;
+}
+
 #nav a,
 #nav ul {
     font-size: 150%;
-    color: white;
     transition: color .2s;
 }
 
@@ -111,10 +119,10 @@ div.header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    font-size: 200%;
 }
-.header {
-    font-size: 150%;
-}
+
+
 .header ul {
     display: flex;
     justify-content: flex-end;
@@ -126,3 +134,20 @@ li {
     cursor: pointer;
     margin-right: 2%;
 }
+
+#bigcontainer {
+    height: 37vw;
+    background-image: url(images/reresize.jpg);
+    background-size: cover;
+}
+
+#calendar {
+    display: flex;
+    margin-top: 2%;
+    margin-right: 2%;
+    justify-content: flex-end
+}
+iframe button {
+    background-color: aqua;
+}
+
