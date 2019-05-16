@@ -88,7 +88,7 @@ select {
 }
 
 #parallax {
-    background-image: url(images/protcet-the-shield.jpg);
+    background-image: url(images/resized-25.jpg);
 
     min-height: 30em;
 
@@ -126,3 +126,10 @@ li {
     cursor: pointer;
     margin-right: 2%;
 }
+
+.flex {
+    display: flex;
+    
+}
+
+
