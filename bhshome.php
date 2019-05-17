@@ -14,7 +14,7 @@
 
 <body>
     <div id="homecontainer">
-        <a href="bhshome.php"><img src="images/2db0b9fb-8183-4b9f-a6d0-472261747a92_200x200.png" alt=""></a>
+        <a href="bhshome.php"><img src="images/99990b86-769c-4471-89cb-de9285fe0647_200x200.png" alt=""></a>
         
         <div id="homeheader">
             <nav>
@@ -26,13 +26,14 @@
             </nav>
         </div>
     </div>
-    <div class="homeinfo">
+    <div class="homeinfo margin-top">
+       <div>
         <h1>About the team</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quasi, optio quo saepe omnis! Repellendus impedit dicta, voluptate eos, quia ducimus consectetur iste, possimus tempora animi mollitia labore eligendi numquam.</p>
-        <div class="images">
-            <img src="images/500x500.png" alt="">
             <img src="images/500x500.png" alt="">
         </div>
+
+        
         <div id="donate" class="margin-top">
             <div>
                 <h2>Are you interested in your child doing softball?</h2>

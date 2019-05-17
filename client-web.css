@@ -59,6 +59,7 @@ hr {
     justify-content: center;
 }
 
+
 #bigbox {
     width: 80%;
     display: flex;
@@ -159,24 +160,27 @@ iframe button {
 #homecontainer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-size: 150%;
-    margin-left: 1%;
-    margin-right: 1%;
+    background-image: url(images/reresize.jpg);
+    height: 37vw;
+    background-size: cover;
 }
 
 #homecontainer a {
-    color: black;
+    color: white;
     transition: .2s;
+    font-size: 150%;
+    margin-right: 3%;
 }
 
 #homecontainer a:hover {
-    color: gray;
+    color: black;
 }
 
 .homeinfo {
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 button {
@@ -191,12 +195,12 @@ button {
 .images {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #donate {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 
 }
@@ -204,7 +208,7 @@ button {
 #donate > div {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 90%;
 }
 
 @media only screen and (max-width: 1140px) {
