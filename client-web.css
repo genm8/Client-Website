@@ -8,37 +8,14 @@ ul {
     list-style: none;
     text-decoration: none;
 }
-
-#nav a,
-#nav ul {
-    font-size: 150%;
-    color: white;
-    transition: color .2s;
+nav {
+    width: 100%;
 }
-
-#nav a:hover {
-    color: gray;
-}
-
-#nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#navigation {
-    display: flex;
-    justify-content: center;
-    background-color: #0219A8;
-}
-
-#navigation h1 {
+#h1 {
+    text-align: center;
     font-family: 'Bungee', cursive;
-    color: white;
-    font-size: 300%;
+    font-size: 200%;
 }
-
 .centeredtit {
     display: flex;
     flex-direction: column;
@@ -50,7 +27,20 @@ ul {
 hr {
     width: 80%;
 }
-
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.nav a {
+    color: white;
+    transition: .2s;
+    font-size: 120%;
+}
+.nav a:hover {
+    color: gray;
+}
 .info div {
     width: 40%;
     display: flex;
@@ -80,26 +70,8 @@ form {
 }
 
 input {
-    margin-top: 1%;
-}
-
-select {
-    margin-top: 1%;
-}
-
-#parallax {
-    background-image: url(images/resized-25.jpg);
-
-    min-height: 30em;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-content: space-between;
-    justify-content: center;
-    background-color: #0219A8;
+    margin-top: 2.5%;
+    margin-right: 1%;
 }
 
 div.sched {
@@ -108,28 +80,154 @@ div.sched {
 
 div.header {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
+    font-size: 100%;
+    background-color: navy;
+    border-bottom: 1px solid white;
 }
-.header {
-    font-size: 150%;
-}
-.header ul {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+.margin-top {
+    margin-top: 2%;
 }
 
-li {
-    display: inline;
-    cursor: pointer;
+#bigcontainer {
+    height: 37vw;
+    background-image: url(images/reresize.jpg);
+    background-size: cover;
+}
+
+#column {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin-left: auto;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#calendar {
+    display: flex;
+    width: 48%;
     margin-right: 2%;
+    margin-left: auto;
+}
+
+iframe button {
+    background-color: aqua;
+}
+
+#homecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#homecontainer a {
+    color: black;
+    transition: .2s;
+}
+
+#homecontainer a:hover {
+    color: gray;
+}
+
+.homeinfo {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    border-radius: 4px;
+    margin: .5%;
+    padding: .9%;
+    color: white;
+    background-color: navy;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#donate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#donate > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.sched {
+    width: 50%;
+}
+
+.roster {
+    width: 50%;
 }
 
 .flex {
     display: flex;
-    
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
 
+@media only screen and (max-width: 1140px) {
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        margin-top: 1%;
+    }
+
+    #donate {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+
+    #donate > div {
+        width: 90%;
+        margin: auto;
+    }
+
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #column,
+    #calendar {
+        width: 90%;
+        margin: auto;
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    div.header {
+        background-color: transparent;
+        border-bottom: 0px;
+    }
+}
