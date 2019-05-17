@@ -12,41 +12,42 @@
 </head>
 
 <body>
-    <div id="navigation">
-        <nav id="nav">
-            <h1>Bullard High Future Knights Softball</h1>
+    <div id="bigcontainer">
+        <div class="header">
+           <nav>
             <ul>
                 <li><a href="bhshome.php">Home</a></li>
                 <li><a href="schedule.php">Schedules</a></li>
                 <li><a href="youthprogram.php">Lil' Knights</a></li>
             </ul>
-        </nav>
+            </nav>
+        </div>
     </div>
     <div class="centeredtit">
-    <h1>Summer Skills Camps 2019</h1>
+        <h1>Summer Skills Camps 2019</h1>
         <h2>All Skills Camps</h2>
-        </div>
+    </div>
     <div class="info">
         <div>
-               
+
             <p>
                 <strong>Lil' Knights(Ages 4-8)</strong> 8:30 am - 11:30 am June 10-13 100.00$
                 Summer softball camp. Come work with the Bullard softball team and coaching staff and improve your skills. <br>
             </p>
         </div>
         <div>
-               
+
             <p>
                 <br><strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
             </p>
         </div>
     </div>
-     <div id="bigbox">
-          
-            <p>
-                <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$
-            </p>
-       
+    <div id="bigbox">
+
+        <p>
+            <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$
+        </p>
+
 
         <ul>
             <li>Defense skill development - throwing and fielding fundamentals</li>
@@ -55,31 +56,32 @@
         </ul>
         <p>Come get better with one of the best teams in the Valley!</p>
     </div>
-<div class="centeredtit">
-    <h1>Register Now</h1>
+    <div class="centeredtit">
+        <h1>Register Now</h1>
     </div>
     <hr>
     <form action="">
-        First Name <input type="text">    Last Name <input type="text"> <br>
-        Address <input type="text">
-        City <input type="text">
-        ZIP Code <input type="text"><br>
-        Mom Name <input type="text">
-        Mom Cell <input type="text"> <br>
+        First Name <input type="text" required> Last Name <input type="text" required> <br>
+        Address <input type="text" required>
+        City <input type="text" required>
+        ZIP Code <input type="text" required><br>
+        Mom Name <input type="text" required>
+        Mom Cell <input type="text" required> <br>
         Dad Name <input type="text">
         Dad Cell <input type="text"> <br>
         E-mail <input type="email"> <br>
-        Emergency Contact <input type="text"> <br>
-        Date of Birth <input type="date">
-        Age <input type="number" min="0"> <br>
-        T-shirt Size <select name="tshirt" id="tshirt">
-            <option value="default"> -- Select --</option>
+        Emergency Contact <input type="text" required> <br>
+        Date of Birth <input type="date" required>
+        Age <input type="number" min="0" required> <br>
+        T-shirt Size <select name="tshirt" id="tshirt" class="margin-top" required>
+            <option value="default" > -- Select --</option>
             <option value="xs">Extra Small</option>
             <option value="s">Small</option>
             <option value="m">Medium</option>
             <option value="l">Large</option>
             <option value="xl">Extra Large</option>
-        </select>
+        </select> <br>
+        <input type="submit">
     </form>
 </body>
 

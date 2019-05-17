@@ -35,18 +35,6 @@ ul {
     justify-content: space-around;
 }
 
-#navigation {
-    display: flex;
-    justify-content: center;
-    background-color: #0219A8;
-}
-
-#navigation h1 {
-    font-family: 'Bungee', cursive;
-    color: white;
-    font-size: 300%;
-}
-
 .centeredtit {
     display: flex;
     flex-direction: column;
@@ -88,11 +76,8 @@ form {
 }
 
 input {
-    margin-top: 1%;
-}
-
-select {
-    margin-top: 1%;
+    margin-top: 2.5%;
+    margin-right: 1%;
 }
 
 #parallax {
@@ -119,7 +104,9 @@ div.header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    font-size: 200%;
+    font-size: 100%;
+    background-color: navy;
+    border-bottom: 1px solid white;
 }
 
 
@@ -135,19 +122,128 @@ li {
     margin-right: 2%;
 }
 
+.margin-top {
+    margin-top: 2%;
+}
+
 #bigcontainer {
     height: 37vw;
     background-image: url(images/reresize.jpg);
     background-size: cover;
 }
 
+#column {
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+    margin-left: auto;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+
 #calendar {
     display: flex;
-    margin-top: 2%;
+    width: 48%;
     margin-right: 2%;
-    justify-content: flex-end
+    margin-left: auto;
 }
+
 iframe button {
     background-color: aqua;
 }
 
+#homecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#homecontainer a {
+    color: black;
+    transition: .2s;
+}
+
+#homecontainer a:hover {
+    color: gray;
+}
+
+.homeinfo {
+    width: 90%;
+    margin: auto;
+}
+
+button {
+    border-radius: 4px;
+    margin: .5%;
+    padding: .9%;
+    color: white;
+    background-color: navy;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#donate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#donate > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1140px) {
+    .images {
+        flex-direction: column;
+    }
+
+    .images img {
+        margin-top: 1%;
+    }
+
+    #donate {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+
+    #donate > div {
+        width: 90%;
+        margin: auto;
+    }
+
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #column,
+    #calendar {
+        width: 90%;
+        margin: auto;
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    div.header {
+        background-color: transparent;
+        border-bottom: 0px;
+    }
+}
