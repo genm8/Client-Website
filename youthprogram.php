@@ -15,7 +15,7 @@
     <div id="bigcontainer">
         <div class="header">
            <nav>
-            <ul>
+            <ul class="nav">
                 <li><a href="bhshome.php">Home</a></li>
                 <li><a href="schedule.php">Schedules</a></li>
                 <li><a href="youthprogram.php">Lil' Knights</a></li>

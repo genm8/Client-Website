@@ -8,33 +8,14 @@ ul {
     list-style: none;
     text-decoration: none;
 }
-
-.header a {
-    color: white;
-    transition: .2s;
+nav {
+    width: 100%;
 }
-
-.header a:hover {
-    color: black;
+#h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 200%;
 }
-
-#nav a,
-#nav ul {
-    font-size: 150%;
-    transition: color .2s;
-}
-
-#nav a:hover {
-    color: gray;
-}
-
-#nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .centeredtit {
     display: flex;
     flex-direction: column;
@@ -46,7 +27,20 @@ ul {
 hr {
     width: 80%;
 }
-
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.nav a {
+    color: white;
+    transition: .2s;
+    font-size: 120%;
+}
+.nav a:hover {
+    color: gray;
+}
 .info div {
     width: 40%;
     display: flex;
@@ -81,48 +75,18 @@ input {
     margin-right: 1%;
 }
 
-#parallax {
-    background-image: url(images/protcet-the-shield.jpg);
-
-    min-height: 30em;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-content: space-between;
-    justify-content: center;
-    background-color: #0219A8;
-}
-
 div.sched {
     border: 1em;
 }
 
 div.header {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     font-size: 100%;
     background-color: navy;
     border-bottom: 1px solid white;
 }
-
-
-.header ul {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-li {
-    display: inline;
-    cursor: pointer;
-    margin-right: 2%;
-}
-
 .margin-top {
     margin-top: 2%;
 }
@@ -209,6 +173,26 @@ button {
     display: flex;
     flex-direction: column;
     width: 90%;
+}
+
+.sched {
+    width: 50%;
+}
+
+.roster {
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 @media only screen and (max-width: 1140px) {

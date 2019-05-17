@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-     <link rel="stylesheet" href="client-web.css">
+    <link rel="stylesheet" href="client-web.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee" rel="stylesheet">
     <title>Schedule Page</title>
-    <div id="navigation">
+
+</head>
+
+<body>
+    <h1 id="h1">Bullard High Softball Schedule</h1>
+    <div class="header">
         <nav>
-            <h1>Bullard High Softball Schedule</h1>
-            <ul>
+            <ul class="nav">
                 <li><a href="bhshome.php">Home</a></li>
                 <li><a href="schedule.php">Schedules</a></li>
                 <li><a href="youthprogram.php">Lil' Knights</a></li>
             </ul>
         </nav>
     </div>
-</head>
-<body>
-  <table>
-      <tr>
-          <th>Date</th>
-          <th>Opponenet</th>
-          <th>Location</th>
-          <th>Time</th>
-      </tr>
-      
-      
-<div class="sched">
-   <?php
+    <div class="flex">
+        <div class="sched">
+            <h1>Schedule</h1>
+            <?php
         if (($csvfile = fopen("sched.csv", "r")) !== FALSE) {
             while (($csvdata = fgetcsv($csvfile, 0, ",")) !== FALSE) {
                 $error= '';
@@ -43,12 +39,12 @@
                     //if(!is_numeric($csvdata[3])) $error.='time, ';
                 }
                 if($error == '') {
-                    echo "<tr>
-                            <td>$csvdata[0]</td>
-                            <td>$csvdata[1]</td>
-                            <td>$csvdata[2]</td>
-                            <td>$csvdata[3]</td>
-                        </tr>      ";
+                    echo "<div class='row'>
+                            <div>$csvdata[0]</div>
+                            <div>$csvdata[1]</div>
+                            <div>$csvdata[2]</div>
+                            <div>$csvdata[3]</div>
+                        </div>      ";
                 } else {
                     echo $error;
                 }
@@ -56,6 +52,13 @@
                 
             }
         }
+    
+    ?>
+        </div>
+        <div class="roster">
+            <h1>Roster</h1>
+            <?php
+  
     if (($csvros = fopen("roster.csv", "r")) !== FALSE) {
             while (($csvter = fgetcsv($csvros, 0, ",")) !== FALSE) {
                 $error= '';
@@ -66,12 +69,25 @@
                 } else {
                     
                 }
-    
+                    if($error == '') {
+                    echo "<div class='row'>
+                            <div>$csvter[0]</div>
+                            <div>$csvter[1]</div>
+                            <div>$csvter[2]</div>
+                            <div>$csvter[3]</div>
+                        </div>      ";
+                } else {
+                    echo $error;
+                }
+                
+                
+            }
+        }
     ?>
       </div>
     
     
-    </table>  
+    </div>  
 
 <hr>
 <footer>
@@ -79,3 +95,4 @@
 </footer>
 </body>
 </html>
+
