@@ -3,47 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Youth Program</title>
+    <title>Lil' Knights</title>
     <link rel="stylesheet" href="client-web.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee" rel="stylesheet">
-
-
 </head>
-
 <body>
-    <div id="bigcontainer">
         <div class="header">
-           <nav>
-            <ul class="nav">
-                <li><a href="bhshome.php">Home</a></li>
-                <li><a href="schedule.php">Schedules</a></li>
-                <li><a href="youthprogram.php">Lil' Knights</a></li>
-            </ul>
+            <nav>
+                <a href="bhshome.php">
+                    <img id="logo" src="images/99990b86-769c-4471-89cb-de9285fe0647_200x200.png" alt=""></a>
+                <ul class="nav">
+                    <li><a href="youthprogram.php">Lil' Knights</a></li>
+                    <li><a href="schedule.php">Schedules</a></li>
+                    <li><a href="bhshome.php">Home</a></li>
+                </ul>
             </nav>
         </div>
-    </div>
+        
     <div class="centeredtit">
         <h1>Summer Skills Camps 2019</h1>
         <h2>All Skills Camps</h2>
     </div>
     <div class="info">
         <div>
-
+           <img src="images/400x400.png" alt="">
             <p>
                 <strong>Lil' Knights(Ages 4-8)</strong> 8:30 am - 11:30 am June 10-13 100.00$
                 Summer softball camp. Come work with the Bullard softball team and coaching staff and improve your skills. <br>
             </p>
         </div>
         <div>
-
+            <img src="images/400x400.png" alt="">
             <p>
                 <br><strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
             </p>
         </div>
     </div>
     <div id="bigbox">
-
+        <img src="images/800x600.png" alt="">
         <p>
             <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$
         </p>
@@ -60,29 +58,45 @@
         <h1>Register Now</h1>
     </div>
     <hr>
-    <form action="">
-        First Name <input type="text" required> Last Name <input type="text" required> <br>
-        Address <input type="text" required>
-        City <input type="text" required>
-        ZIP Code <input type="text" required><br>
-        Mom Name <input type="text" required>
-        Mom Cell <input type="text" required> <br>
-        Dad Name <input type="text">
-        Dad Cell <input type="text"> <br>
-        E-mail <input type="email"> <br>
-        Emergency Contact <input type="text" required> <br>
-        Date of Birth <input type="date" required>
-        Age <input type="number" min="0" required> <br>
-        T-shirt Size <select name="tshirt" id="tshirt" class="margin-top" required>
-            <option value="default" > -- Select --</option>
-            <option value="xs">Extra Small</option>
-            <option value="s">Small</option>
-            <option value="m">Medium</option>
-            <option value="l">Large</option>
-            <option value="xl">Extra Large</option>
-        </select> <br>
-        <input type="submit">
-    </form>
+    <div id="form">
+   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_zStnkKUDTO66JM0U4-7XrQEALGQJA6REFacu6x3GWZlRvQ/viewform?embedded=true" width="640" height="2594" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+    </div>
+   <footer class="margin-top">
+        <div class="footercomp ">
+            <div class="map margin-top">
+                <h2>Bullard Softball Location and Contact </h2>
+
+               <p>Follow Bullard Softball on social media.</p>
+                <a href="https://twitter.com/BHSKnights_SB" target="_blank"><img src="images/twitter.png" alt=""> </a>
+
+                <a href="https://www.facebook.com/BYSLFresno/" target="_blank">
+                    <img src="images/facebook.png" alt="">
+                </a>
+            </div>
+
+
+            <div class="mapouter margin-top">
+                <div class="gmap_canvas"><iframe width="341" height="234" id="gmap_canvas" src="https://maps.google.com/maps?q=bullard%20high%20school%20&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 234px;
+                        width: 341px;
+                        margin-bottom: 2%;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 234px;
+                        width: 341px;
+                    }
+
+                </style>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
