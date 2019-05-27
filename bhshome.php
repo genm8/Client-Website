@@ -54,7 +54,7 @@
         <div id="column">
             <h2>Events this season</h2>
             <p>This calendar contains all of the upcoming events. You can find a schedule with all of the upcoming games and a roster of the team in the "Schedule" page. <br>
-
+            It is very important for the team to be updated and now all the key dates set by the coach. If there are any questions about the calendar and its elements you can contact the team coach. 
             </p>
         </div>
         <div id="calendar" class="margin-top">
@@ -66,8 +66,12 @@
         <div class="footercomp ">
             <div class="map margin-top">
                 <h2>Bullard Softball Location and Contact </h2>
+                
+                <p>Coach IDkHeRnAmE: (559)- 323-2343 <br>
+                fjasdfljs@gmail.com
+                </p>
 
-               <p>Follow Bullard Softball on social media.</p>
+                <p>Follow Bullard Softball on social media.</p>
                 <a href="https://twitter.com/BHSKnights_SB" target="_blank"><img src="images/twitter.png" alt=""> </a>
 
                 <a href="https://www.facebook.com/BYSLFresno/" target="_blank">

@@ -25,27 +25,21 @@
         <h1>Summer Skills Camps 2019</h1>
         <h2>All Skills Camps</h2>
     </div>
-    <div class="info">
+    <div class="grid">
         <div>
-           <img src="images/400x400.png" alt="">
             <p>
                 <strong>Lil' Knights(Ages 4-8)</strong> 8:30 am - 11:30 am June 10-13 100.00$
                 Summer softball camp. Come work with the Bullard softball team and coaching staff and improve your skills. <br>
             </p>
         </div>
         <div>
-            <img src="images/400x400.png" alt="">
-            <p>
-                <br><strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
+           <p> <strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
             </p>
         </div>
-    </div>
-    <div id="bigbox">
-        <img src="images/800x600.png" alt="">
+        <div class="largeboi">
         <p>
-            <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$
+            <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$ Here your child will learn different softball techniques such as: 
         </p>
-
 
         <ul>
             <li>Defense skill development - throwing and fielding fundamentals</li>
@@ -54,6 +48,8 @@
         </ul>
         <p>Come get better with one of the best teams in the Valley!</p>
     </div>
+    </div>
+    
     <div class="centeredtit">
         <h1>Register Now</h1>
     </div>
@@ -65,8 +61,12 @@
         <div class="footercomp ">
             <div class="map margin-top">
                 <h2>Bullard Softball Location and Contact </h2>
+                
+                <p>Coach IDkHeRnAmE: (559)- 323-2343 <br>
+                fjasdfljs@gmail.com
+                </p>
 
-               <p>Follow Bullard Softball on social media.</p>
+                <p>Follow Bullard Softball on social media.</p>
                 <a href="https://twitter.com/BHSKnights_SB" target="_blank"><img src="images/twitter.png" alt=""> </a>
 
                 <a href="https://www.facebook.com/BYSLFresno/" target="_blank">

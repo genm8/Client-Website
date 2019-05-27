@@ -44,6 +44,18 @@ nav li {
     margin-right: 1%;
 }
 
+#homecontainer a {
+    color: black;
+    font-weight: 600;
+    transition: .2s;
+    font-size: 200%;
+}
+
+#homecontainer a:hover {
+    color: navy;
+    font-size: 600;
+}
+
 nav a {
     color: white;
     transition: .2s;
@@ -58,7 +70,6 @@ nav a:hover {
     color: gray;
 }
 
-
 #bigbox {
     width: 90%;
     display: flex;
@@ -68,9 +79,11 @@ nav a:hover {
     align-items: baseline;
     margin: auto;
 }
+
 #bigbox img {
     width: 100%;
 }
+
 form {
     width: 80%;
     margin: auto;
@@ -81,6 +94,7 @@ input {
     margin-top: 2.5%;
     margin-right: 1%;
 }
+
 #submit {
     margin: .8%;
     padding: .8%;
@@ -223,9 +237,21 @@ button {
     width: 40%;
 
 }
+
 #form {
     display: flex;
     justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 1em;
+    justify-content: center;
+}
+.largeboi {
+    grid-column: 1;
+    grid-row:2;
 }
 @media only screen and (max-width: 1140px) {
 
@@ -234,7 +260,7 @@ button {
         flex-direction: column;
 
     }
-
+    
     #aboutteam {
         width: 90%;
         margin: auto;
@@ -289,6 +315,7 @@ button {
     #bigbox {
         width: 90%;
     }
+
     .footercomp {
         width: 100%;
         display: flex;

@@ -97,8 +97,12 @@
         <div class="footercomp ">
             <div class="map margin-top">
                 <h2>Bullard Softball Location and Contact </h2>
+                
+                <p>Coach IDkHeRnAmE: (559)- 323-2343 <br>
+                fjasdfljs@gmail.com
+                </p>
 
-               <p>Follow Bullard Softball on social media.</p>
+                <p>Follow Bullard Softball on social media.</p>
                 <a href="https://twitter.com/BHSKnights_SB" target="_blank"><img src="images/twitter.png" alt=""> </a>
 
                 <a href="https://www.facebook.com/BYSLFresno/" target="_blank">
