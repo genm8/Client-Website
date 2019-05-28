@@ -8,10 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee" rel="stylesheet">
 
-
-
 </head>
-
 <body>
     <div id="homecontainer">
         <nav>
@@ -67,8 +64,8 @@
             <div class="map margin-top">
                 <h2>Bullard Softball Location and Contact </h2>
                 
-                <p>Coach IDkHeRnAmE: (559)- 323-2343 <br>
-                fjasdfljs@gmail.com
+                <p>Coach Jamie Maxey: (559)- 644-2343 <br>
+                Jamie.Maxey@fresnounified.org
                 </p>
 
                 <p>Follow Bullard Softball on social media.</p>

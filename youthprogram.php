@@ -8,19 +8,20 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bungee" rel="stylesheet">
 </head>
+
 <body>
-        <div class="header">
-            <nav>
-                <a href="bhshome.php">
-                    <img id="logo" src="images/99990b86-769c-4471-89cb-de9285fe0647_200x200.png" alt=""></a>
-                <ul class="nav">
-                    <li><a href="youthprogram.php">Lil' Knights</a></li>
-                    <li><a href="schedule.php">Schedules</a></li>
-                    <li><a href="bhshome.php">Home</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+    <div class="header">
+        <nav>
+            <a href="bhshome.php">
+                <img id="logo" src="images/99990b86-769c-4471-89cb-de9285fe0647_200x200.png" alt=""></a>
+            <ul class="nav">
+                <li><a href="youthprogram.php">Lil' Knights</a></li>
+                <li><a href="schedule.php">Schedules</a></li>
+                <li><a href="bhshome.php">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <div class="centeredtit">
         <h1>Summer Skills Camps 2019</h1>
         <h2>All Skills Camps</h2>
@@ -33,37 +34,37 @@
             </p>
         </div>
         <div>
-           <p> <strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
+            <p> <strong>Pitching/Catching(Ages 5-12)</strong> 12:00 pm - 1:30 pm June 10 - 12 50.00$ <br>
             </p>
         </div>
         <div class="largeboi">
-        <p>
-            <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$ Here your child will learn different softball techniques such as: 
-        </p>
+            <p>
+                <br> <strong>Left Handed Slappers Camp(Ages 5-12)</strong> 1:30 pm - 2:30 pm June 10-12 35.00$ Here your child will learn different softball techniques such as:
+            </p>
 
-        <ul>
-            <li>Defense skill development - throwing and fielding fundamentals</li>
-            <li>Infield and outfield position work</li>
-            <li>Offense instruction - hitting and baserunning</li>
-        </ul>
-        <p>Come get better with one of the best teams in the Valley!</p>
+            <ul>
+                <li>Defense skill development - throwing and fielding fundamentals</li>
+                <li>Infield and outfield position work</li>
+                <li>Offense instruction - hitting and baserunning</li>
+            </ul>
+            <p>Come get better with one of the best teams in the Valley!</p>
+        </div>
     </div>
-    </div>
-    
+
     <div class="centeredtit">
         <h1>Register Now</h1>
     </div>
     <hr>
     <div id="form">
-   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_zStnkKUDTO66JM0U4-7XrQEALGQJA6REFacu6x3GWZlRvQ/viewform?embedded=true" width="640" height="2594" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_zStnkKUDTO66JM0U4-7XrQEALGQJA6REFacu6x3GWZlRvQ/viewform?embedded=true" width="640" height="2594" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
-   <footer class="margin-top">
+    <footer class="margin-top">
         <div class="footercomp ">
             <div class="map margin-top">
                 <h2>Bullard Softball Location and Contact </h2>
-                
+
                 <p>Coach IDkHeRnAmE: (559)- 323-2343 <br>
-                fjasdfljs@gmail.com
+                    fjasdfljs@gmail.com
                 </p>
 
                 <p>Follow Bullard Softball on social media.</p>
